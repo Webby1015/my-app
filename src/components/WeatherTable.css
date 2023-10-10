@@ -1,0 +1,90 @@
+/* WeatherTable.css */
+
+/* Overall container styles */
+.weather-container {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a card-like appearance */
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Header styles */
+  .weather-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Table row hover effect */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Weather icon styles */
+  .weather-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    vertical-align: middle;
+  }
+  
+  /* Loading message styles */
+  .loading-message {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .weather-container {
+      max-width: 90%; /* Adjust as needed */
+    }
+  }
+  
+
+  /* WeatherTable.css */
+  
+  /* Style for input fields */
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: auto;
+  }
+  
+  /* Style for submit button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
